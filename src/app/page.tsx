@@ -1,101 +1,228 @@
-import Image from "next/image";
+"use client"
+import { motion } from 'framer-motion';
+import { FaCreditCard, FaChartLine, FaShieldAlt, FaLightbulb } from 'react-icons/fa';
+
+// Animation variants
+const fadeInUp = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+};
+
+const staggerContainer = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <main className="flex min-h-screen flex-col items-center justify-between bg-white">
+      {/* Hero Section */}
+      <motion.section
+        initial="hidden"
+        animate="visible"
+        variants={staggerContainer}
+        className="w-full py-32 bg-gradient-to-r from-teal-500 to-emerald-400"
+      >
+        <div className="container mx-auto px-4 text-center">
+          <motion.h1
+            variants={fadeInUp}
+            className="text-5xl md:text-7xl font-bold text-white mb-6"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            Welcome to <span className="text-teal-700">CrediWise</span>
+          </motion.h1>
+          <motion.p
+            variants={fadeInUp}
+            className="text-xl md:text-2xl text-white mb-8"
           >
-            Read our docs
-          </a>
+            Smart Spending, Smarter Credit.
+          </motion.p>
+          <motion.div
+            variants={fadeInUp}
+            className="space-x-4"
+          >
+            <button className="bg-teal-600 text-teal-900 px-8 py-4 rounded-full font-semibold hover:bg-teal-300 transition">
+              Get Started
+            </button>
+            <button className="bg-transparent border border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-teal-900 transition">
+              Watch Demo
+            </button>
+          </motion.div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </motion.section>
+
+      {/* Features Section */}
+      <section className="w-full py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <motion.h2
+            initial="hidden"
+            whileInView="visible"
+            variants={fadeInUp}
+            viewport={{ once: true }}
+            className="text-3xl md:text-4xl font-bold text-center mb-16 text-teal-900"
+          >
+            Features
+          </motion.h2>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            variants={staggerContainer}
+            viewport={{ once: true }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          >
+            <motion.div
+              variants={fadeInUp}
+              className="text-center p-8 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <FaCreditCard className="text-5xl text-teal-600 mx-auto mb-6" />
+              <h3 className="text-xl font-semibold mb-4 text-teal-900">Spending Insights</h3>
+              <p className="text-teal-700">Track your expenses with 50-30-20 and 75-15-10 rules.</p>
+            </motion.div>
+            <motion.div
+              variants={fadeInUp}
+              className="text-center p-8 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <FaChartLine className="text-5xl text-teal-600 mx-auto mb-6" />
+              <h3 className="text-xl font-semibold mb-4 text-teal-900">Credit Card Management</h3>
+              <p className="text-teal-700">Manage multiple credit cards and never miss a payment.</p>
+            </motion.div>
+            <motion.div
+              variants={fadeInUp}
+              className="text-center p-8 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <FaShieldAlt className="text-5xl text-teal-600 mx-auto mb-6" />
+              <h3 className="text-xl font-semibold mb-4 text-teal-900">Credit Score Protection</h3>
+              <p className="text-teal-700">Stay below the 30% threshold to protect your credit score.</p>
+            </motion.div>
+            <motion.div
+              variants={fadeInUp}
+              className="text-center p-8 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <FaLightbulb className="text-5xl text-teal-600 mx-auto mb-6" />
+              <h3 className="text-xl font-semibold mb-4 text-teal-900">Personalized Recommendations</h3>
+              <p className="text-teal-700">Find the best credit cards tailored to your spending habits.</p>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* How It Works Section */}
+      <section className="w-full py-20 bg-teal-50">
+        <div className="container mx-auto px-4">
+          <motion.h2
+            initial="hidden"
+            whileInView="visible"
+            variants={fadeInUp}
+            viewport={{ once: true }}
+            className="text-3xl md:text-4xl font-bold text-center mb-16 text-teal-900"
+          >
+            How It Works
+          </motion.h2>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            variants={staggerContainer}
+            viewport={{ once: true }}
+            className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8"
+          >
+            <motion.div
+              variants={fadeInUp}
+              className="text-center"
+            >
+              <div className="w-20 h-20 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto text-3xl font-bold">
+                1
+              </div>
+              <h3 className="text-xl font-semibold mt-6 mb-4 text-teal-900">Connect Your Accounts</h3>
+              <p className="text-teal-700">Link your bank accounts and credit cards securely.</p>
+            </motion.div>
+            <motion.div
+              variants={fadeInUp}
+              className="text-center"
+            >
+              <div className="w-20 h-20 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto text-3xl font-bold">
+                2
+              </div>
+              <h3 className="text-xl font-semibold mt-6 mb-4 text-teal-900">Get Insights</h3>
+              <p className="text-teal-700">Receive personalized spending insights and recommendations.</p>
+            </motion.div>
+            <motion.div
+              variants={fadeInUp}
+              className="text-center"
+            >
+              <div className="w-20 h-20 bg-teal-600 text-white rounded-full flex items-center justify-center mx-auto text-3xl font-bold">
+                3
+              </div>
+              <h3 className="text-xl font-semibold mt-6 mb-4 text-teal-900">Optimize & Protect</h3>
+              <p className="text-teal-700">Optimize your credit card usage and protect your credit score.</p>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="w-full py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <motion.h2
+            initial="hidden"
+            whileInView="visible"
+            variants={fadeInUp}
+            viewport={{ once: true }}
+            className="text-3xl md:text-4xl font-bold text-center mb-16 text-teal-900"
+          >
+            What Our Users Say
+          </motion.h2>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            variants={staggerContainer}
+            viewport={{ once: true }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          >
+            <motion.div
+              variants={fadeInUp}
+              className="text-center p-8 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <p className="text-teal-700 italic">
+                "This platform helped me save 20% on my expenses and improved my credit score by 50 points!"
+              </p>
+              <p className="mt-6 font-semibold text-teal-900">— John Doe</p>
+            </motion.div>
+            <motion.div
+              variants={fadeInUp}
+              className="text-center p-8 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <p className="text-teal-700 italic">
+                "I finally understand how to manage my credit cards without stress. Highly recommend!"
+              </p>
+              <p className="mt-6 font-semibold text-teal-900">— Jane Smith</p>
+            </motion.div>
+            <motion.div
+              variants={fadeInUp}
+              className="text-center p-8 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <p className="text-teal-700 italic">
+                "The personalized recommendations are spot on. I found the perfect credit card for my needs."
+              </p>
+              <p className="mt-6 font-semibold text-teal-900">— Alex Johnson</p>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Footer Section */}
+      <footer className="w-full py-12 bg-teal-900 text-white">
+        <div className="container mx-auto px-4 text-center">
+          <p>&copy; 2023 CrediWise. All rights reserved.</p>
+          <div className="mt-6 space-x-6">
+            <a href="#" className="hover:text-yellow-300">Privacy Policy</a>
+            <a href="#" className="hover:text-yellow-300">Terms of Service</a>
+          </div>
+        </div>
       </footer>
-    </div>
+    </main>
   );
 }
