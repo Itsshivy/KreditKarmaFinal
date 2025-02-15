@@ -4,13 +4,13 @@ import { useState } from "react";
 
 export default function CardRecommendation() {
   // State to store user input
-  const [income, setIncome] = useState<string>("");
-  const [spendingHabits, setSpendingHabits] = useState<string>("");
-  const [creditScore, setCreditScore] = useState<string>("");
-  const [annualFees, setAnnualFees] = useState<boolean>(false);
-  const [employment, setEmployment] = useState<string>("");
-  const [recommendedCards, setRecommendedCards] = useState<any[]>([]);
-  const [error, setError] = useState<string | null>(null); // State for error messages
+  const [income, setIncome] = useState("");
+  const [spendingHabits, setSpendingHabits] = useState("");
+  const [creditScore, setCreditScore] = useState("");
+  const [annualFees, setAnnualFees] = useState(false);
+  const [employment, setEmployment] = useState("");
+  const [recommendedCards, setRecommendedCards] = useState([]);
+  const [error, setError] = useState(null); // State for error messages
 
   // Sponsored cards (hardcoded for now)
   const sponsoredCards = [
@@ -459,7 +459,7 @@ export default function CardRecommendation() {
   ];
 
   // Function to handle form submission
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     // Reset error message
@@ -476,7 +476,7 @@ export default function CardRecommendation() {
     const creditScoreValue = parseCreditScore(creditScore);
 
     // Logic to recommend cards based on user input
-    let cards: any[] = [];
+    let cards = [];
 
     // Filter cards based on annual fees preference
     const filteredCards = cardDataset.filter(
@@ -504,19 +504,54 @@ export default function CardRecommendation() {
       cards = filteredCards.filter((card) => card.category === "mid-credit-score");
     }
 
+    // Further filter cards based on spending habits
+    if (spendingHabits === "fuel") {
+      cards = cards.filter((card) =>
+        card.benefits.some((benefit) =>
+          benefit.toLowerCase().includes("fuel")
+        )
+      );
+    } else if (spendingHabits === "travel") {
+      cards = cards.filter((card) =>
+        card.benefits.some((benefit) =>
+          benefit.toLowerCase().includes("travel") ||
+          benefit.toLowerCase().includes("flight") ||
+          benefit.toLowerCase().includes("hotel")
+        )
+      );
+    } else if (spendingHabits === "dining") {
+      cards = cards.filter((card) =>
+        card.benefits.some((benefit) =>
+          benefit.toLowerCase().includes("dining")
+        )
+      );
+    } else if (spendingHabits === "groceries") {
+      cards = cards.filter((card) =>
+        card.benefits.some((benefit) =>
+          benefit.toLowerCase().includes("groceries")
+        )
+      );
+    } else if (spendingHabits === "shopping") {
+      cards = cards.filter((card) =>
+        card.benefits.some((benefit) =>
+          benefit.toLowerCase().includes("shopping")
+        )
+      );
+    }
+
     // Update recommended cards
     setRecommendedCards(cards);
   };
 
   // Helper function to parse income
-  const parseIncome = (income: string): number => {
+  const parseIncome = (income) => {
     if (income === "25+") return 2500000;
     const [min] = income.split("-").map(Number);
     return min * 1000;
   };
 
   // Helper function to parse credit score
-  const parseCreditScore = (creditScore: string): number => {
+  const parseCreditScore = (creditScore) => {
     const [min] = creditScore.split("-").map(Number);
     return min;
   };
