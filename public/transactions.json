@@ -1,0 +1,3517 @@
+[
+    {
+        "transaction_id": "TXN1",
+        "user_id": 1111,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 500,
+        "budget": 15852,
+        "date": "2024-07-06",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": true,
+            "unusual_expense": true
+        }
+    },
+    
+    {
+        "transaction_id": "TXN1",
+        "user_id": 1253,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 7386,
+        "budget": 15852,
+        "date": "2024-07-06",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN2",
+        "user_id": 5930,
+        "merchant": "Decathlon",
+        "category": "Sports",
+        "amount_spent": 34399,
+        "budget": 35125,
+        "date": "2024-04-25",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN3",
+        "user_id": 9686,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 8058,
+        "budget": 22652,
+        "date": "2024-11-26",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN4",
+        "user_id": 6494,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 36025,
+        "budget": 45006,
+        "date": "2024-10-16",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN5",
+        "user_id": 9192,
+        "merchant": "Netflix",
+        "category": "Entertainment",
+        "amount_spent": 36780,
+        "budget": 43880,
+        "date": "2024-04-27",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN6",
+        "user_id": 1253,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 46531,
+        "budget": 60347,
+        "date": "2024-05-10",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN7",
+        "user_id": 9766,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 3630,
+        "budget": 10560,
+        "date": "2024-12-25",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN8",
+        "user_id": 1253,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 19371,
+        "budget": 38890,
+        "date": "2025-02-09",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN9",
+        "user_id": 3731,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 12921,
+        "budget": 32576,
+        "date": "2024-11-14",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN10",
+        "user_id": 5930,
+        "merchant": "Netflix",
+        "category": "Entertainment",
+        "amount_spent": 34563,
+        "budget": 47871,
+        "date": "2024-06-10",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN11",
+        "user_id": 5930,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 2948,
+        "budget": 14458,
+        "date": "2024-08-24",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN12",
+        "user_id": 6769,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 43038,
+        "budget": 59950,
+        "date": "2025-01-31",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN13",
+        "user_id": 7461,
+        "merchant": "Netflix",
+        "category": "Entertainment",
+        "amount_spent": 27627,
+        "budget": 29111,
+        "date": "2024-02-18",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN14",
+        "user_id": 7930,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 21160,
+        "budget": 37757,
+        "date": "2024-11-01",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN15",
+        "user_id": 2488,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 46131,
+        "budget": 60689,
+        "date": "2024-07-26",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN16",
+        "user_id": 6494,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 23600,
+        "budget": 36596,
+        "date": "2024-03-03",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN17",
+        "user_id": 9766,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 1360,
+        "budget": 7794,
+        "date": "2025-01-29",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN18",
+        "user_id": 9453,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 43287,
+        "budget": 57836,
+        "date": "2024-07-20",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN19",
+        "user_id": 5930,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 24649,
+        "budget": 40323,
+        "date": "2024-07-04",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN20",
+        "user_id": 9766,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 10269,
+        "budget": 11302,
+        "date": "2024-07-25",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN21",
+        "user_id": 3731,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 29491,
+        "budget": 43936,
+        "date": "2024-06-16",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN22",
+        "user_id": 8574,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 42350,
+        "budget": 56886,
+        "date": "2024-09-01",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN23",
+        "user_id": 3291,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 11108,
+        "budget": 23117,
+        "date": "2024-09-08",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN24",
+        "user_id": 1253,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 48786,
+        "budget": 54753,
+        "date": "2024-06-17",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN25",
+        "user_id": 6086,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 30525,
+        "budget": 49142,
+        "date": "2024-07-29",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN26",
+        "user_id": 6175,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 19687,
+        "budget": 30805,
+        "date": "2024-12-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN27",
+        "user_id": 3371,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 34323,
+        "budget": 54198,
+        "date": "2024-11-24",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN28",
+        "user_id": 9722,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 14941,
+        "budget": 24914,
+        "date": "2024-03-24",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN29",
+        "user_id": 4163,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 3002,
+        "budget": 12898,
+        "date": "2025-01-24",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN30",
+        "user_id": 1801,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 32422,
+        "budget": 44560,
+        "date": "2024-08-27",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN31",
+        "user_id": 9686,
+        "merchant": "Decathlon",
+        "category": "Sports",
+        "amount_spent": 39289,
+        "budget": 51736,
+        "date": "2024-03-25",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN32",
+        "user_id": 9766,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 32264,
+        "budget": 37283,
+        "date": "2024-02-29",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN33",
+        "user_id": 2488,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 20666,
+        "budget": 36349,
+        "date": "2024-03-08",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN34",
+        "user_id": 9192,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 1945,
+        "budget": 20000,
+        "date": "2024-10-22",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN35",
+        "user_id": 3371,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 27947,
+        "budget": 47907,
+        "date": "2024-12-14",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN36",
+        "user_id": 1801,
+        "merchant": "Netflix",
+        "category": "Entertainment",
+        "amount_spent": 32605,
+        "budget": 52419,
+        "date": "2024-06-25",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN37",
+        "user_id": 9192,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 18489,
+        "budget": 21331,
+        "date": "2024-07-10",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN38",
+        "user_id": 9192,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 47409,
+        "budget": 58235,
+        "date": "2024-06-19",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN39",
+        "user_id": 1949,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 28421,
+        "budget": 40585,
+        "date": "2024-03-27",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN40",
+        "user_id": 3291,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 48081,
+        "budget": 55509,
+        "date": "2024-06-27",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN41",
+        "user_id": 1879,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 2660,
+        "budget": 18317,
+        "date": "2024-03-12",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN42",
+        "user_id": 9192,
+        "merchant": "Domino's",
+        "category": "Food & Beverages",
+        "amount_spent": 23489,
+        "budget": 34772,
+        "date": "2024-09-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN43",
+        "user_id": 2053,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 1846,
+        "budget": 21169,
+        "date": "2025-01-28",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN44",
+        "user_id": 6086,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 47028,
+        "budget": 62571,
+        "date": "2024-10-26",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN45",
+        "user_id": 6558,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 33248,
+        "budget": 51353,
+        "date": "2025-01-08",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN46",
+        "user_id": 4163,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 8447,
+        "budget": 25875,
+        "date": "2024-03-26",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN47",
+        "user_id": 3371,
+        "merchant": "Domino's",
+        "category": "Food & Beverages",
+        "amount_spent": 11035,
+        "budget": 18822,
+        "date": "2024-07-27",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN48",
+        "user_id": 9766,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 29350,
+        "budget": 45704,
+        "date": "2024-09-18",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN49",
+        "user_id": 6086,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 38639,
+        "budget": 58323,
+        "date": "2024-05-01",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN50",
+        "user_id": 7461,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 29473,
+        "budget": 33886,
+        "date": "2024-03-07",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN51",
+        "user_id": 6494,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 46918,
+        "budget": 54043,
+        "date": "2024-10-23",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN52",
+        "user_id": 1931,
+        "merchant": "Domino's",
+        "category": "Food & Beverages",
+        "amount_spent": 2549,
+        "budget": 9294,
+        "date": "2024-11-18",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN53",
+        "user_id": 1093,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 30281,
+        "budget": 36073,
+        "date": "2024-03-18",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN54",
+        "user_id": 7874,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 44203,
+        "budget": 49065,
+        "date": "2024-07-08",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN55",
+        "user_id": 3291,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 3270,
+        "budget": 6955,
+        "date": "2024-09-12",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN56",
+        "user_id": 3731,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 7146,
+        "budget": 15481,
+        "date": "2024-03-27",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN57",
+        "user_id": 9722,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 35159,
+        "budget": 37116,
+        "date": "2024-04-28",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN58",
+        "user_id": 9963,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 27524,
+        "budget": 44924,
+        "date": "2024-06-05",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN59",
+        "user_id": 1879,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 21470,
+        "budget": 26276,
+        "date": "2024-06-03",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN60",
+        "user_id": 9722,
+        "merchant": "Decathlon",
+        "category": "Sports",
+        "amount_spent": 39959,
+        "budget": 50412,
+        "date": "2024-09-03",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN61",
+        "user_id": 2053,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 3640,
+        "budget": 17166,
+        "date": "2024-06-30",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN62",
+        "user_id": 9453,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 4428,
+        "budget": 19563,
+        "date": "2025-02-07",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN63",
+        "user_id": 3731,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 42489,
+        "budget": 59310,
+        "date": "2024-07-30",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN64",
+        "user_id": 3371,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 21752,
+        "budget": 32565,
+        "date": "2024-11-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN65",
+        "user_id": 5930,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 7765,
+        "budget": 10114,
+        "date": "2025-01-14",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN66",
+        "user_id": 9766,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 10992,
+        "budget": 22699,
+        "date": "2024-05-03",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN67",
+        "user_id": 1879,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 18497,
+        "budget": 22416,
+        "date": "2024-08-14",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN68",
+        "user_id": 1801,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 49237,
+        "budget": 60015,
+        "date": "2024-11-17",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN69",
+        "user_id": 9766,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 28452,
+        "budget": 41513,
+        "date": "2024-10-10",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN70",
+        "user_id": 1949,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 7923,
+        "budget": 19204,
+        "date": "2024-12-20",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN71",
+        "user_id": 3291,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 46686,
+        "budget": 58083,
+        "date": "2025-01-28",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN72",
+        "user_id": 1801,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 28021,
+        "budget": 44110,
+        "date": "2024-05-21",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN73",
+        "user_id": 8311,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 35303,
+        "budget": 46421,
+        "date": "2024-07-21",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN74",
+        "user_id": 6769,
+        "merchant": "Domino's",
+        "category": "Food & Beverages",
+        "amount_spent": 8380,
+        "budget": 24371,
+        "date": "2024-08-04",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN75",
+        "user_id": 1879,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 39749,
+        "budget": 55270,
+        "date": "2025-02-04",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN76",
+        "user_id": 2488,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 6256,
+        "budget": 14803,
+        "date": "2024-12-04",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN77",
+        "user_id": 1949,
+        "merchant": "Decathlon",
+        "category": "Sports",
+        "amount_spent": 8703,
+        "budget": 14901,
+        "date": "2024-10-09",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN78",
+        "user_id": 9453,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 22669,
+        "budget": 35418,
+        "date": "2025-01-08",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN79",
+        "user_id": 5930,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 5103,
+        "budget": 14594,
+        "date": "2024-03-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN80",
+        "user_id": 9686,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 38915,
+        "budget": 50600,
+        "date": "2024-10-19",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN81",
+        "user_id": 6769,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 40368,
+        "budget": 51627,
+        "date": "2025-01-11",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN82",
+        "user_id": 3291,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 29574,
+        "budget": 39327,
+        "date": "2024-11-10",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN83",
+        "user_id": 7930,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 7143,
+        "budget": 7888,
+        "date": "2025-01-28",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN84",
+        "user_id": 1879,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 6630,
+        "budget": 25078,
+        "date": "2024-12-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN85",
+        "user_id": 9766,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 36842,
+        "budget": 43304,
+        "date": "2024-03-13",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN86",
+        "user_id": 1949,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 23913,
+        "budget": 41101,
+        "date": "2024-07-31",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN87",
+        "user_id": 1949,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 7194,
+        "budget": 16296,
+        "date": "2024-08-11",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN88",
+        "user_id": 3731,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 30939,
+        "budget": 32009,
+        "date": "2025-01-25",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN89",
+        "user_id": 7874,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 27849,
+        "budget": 29469,
+        "date": "2024-04-17",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN90",
+        "user_id": 1879,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 17895,
+        "budget": 31407,
+        "date": "2024-09-15",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN91",
+        "user_id": 1949,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 47875,
+        "budget": 61904,
+        "date": "2024-05-04",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN92",
+        "user_id": 6769,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 35946,
+        "budget": 37428,
+        "date": "2024-05-09",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN93",
+        "user_id": 6086,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 49157,
+        "budget": 56762,
+        "date": "2024-03-21",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN94",
+        "user_id": 3371,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 11895,
+        "budget": 16487,
+        "date": "2025-01-11",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN95",
+        "user_id": 8311,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 30710,
+        "budget": 34498,
+        "date": "2024-04-21",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN96",
+        "user_id": 6558,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 41959,
+        "budget": 55056,
+        "date": "2024-09-13",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN97",
+        "user_id": 1801,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 4629,
+        "budget": 8584,
+        "date": "2024-10-01",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN98",
+        "user_id": 6769,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 49051,
+        "budget": 49877,
+        "date": "2024-08-04",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN99",
+        "user_id": 9963,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 43029,
+        "budget": 49846,
+        "date": "2024-06-19",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN100",
+        "user_id": 8311,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 1784,
+        "budget": 18925,
+        "date": "2024-10-20",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN101",
+        "user_id": 9686,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 3065,
+        "budget": 6452,
+        "date": "2024-04-11",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN102",
+        "user_id": 7930,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 12996,
+        "budget": 24812,
+        "date": "2025-01-25",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN103",
+        "user_id": 1949,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 49606,
+        "budget": 64884,
+        "date": "2024-06-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN104",
+        "user_id": 6086,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 43642,
+        "budget": 58277,
+        "date": "2025-01-18",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN105",
+        "user_id": 6494,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 9526,
+        "budget": 25888,
+        "date": "2024-07-18",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN106",
+        "user_id": 5930,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 48780,
+        "budget": 67417,
+        "date": "2024-05-25",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN107",
+        "user_id": 6175,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 35703,
+        "budget": 46431,
+        "date": "2024-12-09",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN108",
+        "user_id": 6086,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 35368,
+        "budget": 37622,
+        "date": "2024-06-16",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN109",
+        "user_id": 7874,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 20310,
+        "budget": 37695,
+        "date": "2024-07-20",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN110",
+        "user_id": 1093,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 21957,
+        "budget": 28028,
+        "date": "2024-08-28",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN111",
+        "user_id": 1949,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 33722,
+        "budget": 51721,
+        "date": "2025-02-01",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN112",
+        "user_id": 9766,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 31642,
+        "budget": 42860,
+        "date": "2024-06-04",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN113",
+        "user_id": 7461,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 44049,
+        "budget": 55627,
+        "date": "2024-08-14",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN114",
+        "user_id": 7955,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 37666,
+        "budget": 53040,
+        "date": "2024-05-08",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN115",
+        "user_id": 9722,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 20250,
+        "budget": 23942,
+        "date": "2024-12-28",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN116",
+        "user_id": 1879,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 41255,
+        "budget": 51740,
+        "date": "2024-11-30",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN117",
+        "user_id": 1801,
+        "merchant": "Netflix",
+        "category": "Entertainment",
+        "amount_spent": 34795,
+        "budget": 51218,
+        "date": "2024-12-12",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN118",
+        "user_id": 3371,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 7583,
+        "budget": 18965,
+        "date": "2024-04-12",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN119",
+        "user_id": 3371,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 22859,
+        "budget": 38276,
+        "date": "2024-03-15",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN120",
+        "user_id": 3731,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 35686,
+        "budget": 36585,
+        "date": "2024-11-03",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN121",
+        "user_id": 9722,
+        "merchant": "Domino's",
+        "category": "Food & Beverages",
+        "amount_spent": 33902,
+        "budget": 49679,
+        "date": "2024-05-09",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN122",
+        "user_id": 3291,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 8043,
+        "budget": 15285,
+        "date": "2024-06-06",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN123",
+        "user_id": 6494,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 2007,
+        "budget": 13300,
+        "date": "2024-09-04",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN124",
+        "user_id": 1253,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 7510,
+        "budget": 25688,
+        "date": "2024-09-30",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN125",
+        "user_id": 9192,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 42214,
+        "budget": 61616,
+        "date": "2024-08-01",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN126",
+        "user_id": 8311,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 12648,
+        "budget": 20093,
+        "date": "2024-04-19",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN127",
+        "user_id": 2488,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 37240,
+        "budget": 44889,
+        "date": "2024-02-24",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN128",
+        "user_id": 9453,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 6188,
+        "budget": 19337,
+        "date": "2024-11-15",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN129",
+        "user_id": 9686,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 41940,
+        "budget": 50348,
+        "date": "2024-08-18",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN130",
+        "user_id": 9192,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 25192,
+        "budget": 40039,
+        "date": "2025-01-20",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN131",
+        "user_id": 3291,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 33668,
+        "budget": 39799,
+        "date": "2024-10-31",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN132",
+        "user_id": 4163,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 1458,
+        "budget": 18634,
+        "date": "2024-09-15",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN133",
+        "user_id": 3731,
+        "merchant": "Decathlon",
+        "category": "Sports",
+        "amount_spent": 48518,
+        "budget": 58558,
+        "date": "2024-11-14",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN134",
+        "user_id": 7461,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 47453,
+        "budget": 48775,
+        "date": "2024-04-26",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN135",
+        "user_id": 8311,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 22102,
+        "budget": 40066,
+        "date": "2024-10-25",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN136",
+        "user_id": 7955,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 32827,
+        "budget": 37213,
+        "date": "2024-08-25",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN137",
+        "user_id": 1253,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 39490,
+        "budget": 48764,
+        "date": "2024-03-23",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN138",
+        "user_id": 1949,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 1845,
+        "budget": 9015,
+        "date": "2025-01-18",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN139",
+        "user_id": 7955,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 32553,
+        "budget": 44419,
+        "date": "2024-11-21",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN140",
+        "user_id": 7955,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 1825,
+        "budget": 17551,
+        "date": "2025-01-22",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN141",
+        "user_id": 1093,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 24630,
+        "budget": 42975,
+        "date": "2024-06-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN142",
+        "user_id": 4163,
+        "merchant": "Netflix",
+        "category": "Entertainment",
+        "amount_spent": 581,
+        "budget": 1629,
+        "date": "2024-10-29",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN143",
+        "user_id": 7955,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 30426,
+        "budget": 43038,
+        "date": "2024-06-30",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN144",
+        "user_id": 4163,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 36658,
+        "budget": 40746,
+        "date": "2024-08-12",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN145",
+        "user_id": 9722,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 25359,
+        "budget": 29165,
+        "date": "2024-09-10",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN146",
+        "user_id": 6558,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 21001,
+        "budget": 36117,
+        "date": "2024-09-14",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN147",
+        "user_id": 8311,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 49713,
+        "budget": 50865,
+        "date": "2025-02-10",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN148",
+        "user_id": 9453,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 39285,
+        "budget": 44907,
+        "date": "2024-08-23",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN149",
+        "user_id": 7461,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 49608,
+        "budget": 57214,
+        "date": "2024-07-12",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN150",
+        "user_id": 9766,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 43500,
+        "budget": 61475,
+        "date": "2024-10-18",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN151",
+        "user_id": 6558,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 38679,
+        "budget": 42001,
+        "date": "2024-06-18",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN152",
+        "user_id": 2053,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 40478,
+        "budget": 41845,
+        "date": "2024-03-17",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN153",
+        "user_id": 7461,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 17142,
+        "budget": 19742,
+        "date": "2024-10-18",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN154",
+        "user_id": 2053,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 44898,
+        "budget": 45626,
+        "date": "2025-01-10",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN155",
+        "user_id": 6175,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 28864,
+        "budget": 48839,
+        "date": "2024-11-25",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN156",
+        "user_id": 9722,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 20788,
+        "budget": 22437,
+        "date": "2024-05-25",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN157",
+        "user_id": 5930,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 7251,
+        "budget": 17638,
+        "date": "2024-10-18",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN158",
+        "user_id": 6086,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 18741,
+        "budget": 21832,
+        "date": "2024-08-11",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN159",
+        "user_id": 9722,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 14666,
+        "budget": 22900,
+        "date": "2024-07-05",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN160",
+        "user_id": 3291,
+        "merchant": "Decathlon",
+        "category": "Sports",
+        "amount_spent": 16973,
+        "budget": 25539,
+        "date": "2024-09-29",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN161",
+        "user_id": 4163,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 11191,
+        "budget": 27048,
+        "date": "2024-12-07",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN162",
+        "user_id": 8574,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 7581,
+        "budget": 20581,
+        "date": "2025-01-04",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN163",
+        "user_id": 1253,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 39763,
+        "budget": 48584,
+        "date": "2024-11-13",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN164",
+        "user_id": 9453,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 36561,
+        "budget": 40969,
+        "date": "2025-01-01",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN165",
+        "user_id": 6086,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 145,
+        "budget": 12049,
+        "date": "2024-08-03",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN166",
+        "user_id": 1931,
+        "merchant": "Netflix",
+        "category": "Entertainment",
+        "amount_spent": 27381,
+        "budget": 45227,
+        "date": "2025-02-03",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN167",
+        "user_id": 2488,
+        "merchant": "Decathlon",
+        "category": "Sports",
+        "amount_spent": 690,
+        "budget": 16607,
+        "date": "2025-01-01",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN168",
+        "user_id": 7461,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 31813,
+        "budget": 45714,
+        "date": "2024-10-12",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN169",
+        "user_id": 2053,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 7942,
+        "budget": 21161,
+        "date": "2024-07-06",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN170",
+        "user_id": 2488,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 21531,
+        "budget": 26422,
+        "date": "2024-05-04",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN171",
+        "user_id": 8311,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 49655,
+        "budget": 57075,
+        "date": "2024-05-03",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN172",
+        "user_id": 7461,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 43823,
+        "budget": 61257,
+        "date": "2025-01-27",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN173",
+        "user_id": 8574,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 31423,
+        "budget": 38041,
+        "date": "2024-08-02",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN174",
+        "user_id": 2053,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 24794,
+        "budget": 32318,
+        "date": "2024-07-27",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN175",
+        "user_id": 8574,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 46832,
+        "budget": 64380,
+        "date": "2025-01-25",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN176",
+        "user_id": 6086,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 45848,
+        "budget": 57697,
+        "date": "2024-09-12",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN177",
+        "user_id": 9192,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 30859,
+        "budget": 45682,
+        "date": "2024-08-05",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN178",
+        "user_id": 1879,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 22137,
+        "budget": 29716,
+        "date": "2024-07-10",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN179",
+        "user_id": 1253,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 49847,
+        "budget": 62740,
+        "date": "2024-10-31",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN180",
+        "user_id": 8311,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 11410,
+        "budget": 16533,
+        "date": "2024-03-23",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN181",
+        "user_id": 6558,
+        "merchant": "Domino's",
+        "category": "Food & Beverages",
+        "amount_spent": 15062,
+        "budget": 20991,
+        "date": "2024-06-07",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN182",
+        "user_id": 6175,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 17051,
+        "budget": 27409,
+        "date": "2025-01-09",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN183",
+        "user_id": 1931,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 17151,
+        "budget": 35966,
+        "date": "2024-09-30",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN184",
+        "user_id": 7461,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 36457,
+        "budget": 48020,
+        "date": "2024-10-23",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN185",
+        "user_id": 1253,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 20067,
+        "budget": 35040,
+        "date": "2024-06-18",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN186",
+        "user_id": 2053,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 18256,
+        "budget": 22300,
+        "date": "2025-01-03",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN187",
+        "user_id": 4163,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 41838,
+        "budget": 49892,
+        "date": "2024-05-12",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN188",
+        "user_id": 2053,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 14349,
+        "budget": 17451,
+        "date": "2024-11-08",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN189",
+        "user_id": 3291,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 17076,
+        "budget": 31960,
+        "date": "2024-07-05",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN190",
+        "user_id": 8574,
+        "merchant": "Domino's",
+        "category": "Food & Beverages",
+        "amount_spent": 24019,
+        "budget": 37554,
+        "date": "2025-01-03",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN191",
+        "user_id": 9192,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 49688,
+        "budget": 57945,
+        "date": "2024-04-29",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN192",
+        "user_id": 7930,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 28545,
+        "budget": 41545,
+        "date": "2024-05-19",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN193",
+        "user_id": 9766,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 30271,
+        "budget": 45330,
+        "date": "2025-01-28",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN194",
+        "user_id": 9766,
+        "merchant": "Netflix",
+        "category": "Entertainment",
+        "amount_spent": 49761,
+        "budget": 56401,
+        "date": "2024-07-31",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN195",
+        "user_id": 1801,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 10351,
+        "budget": 18379,
+        "date": "2024-10-29",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN196",
+        "user_id": 9192,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 46901,
+        "budget": 59917,
+        "date": "2024-11-19",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN197",
+        "user_id": 9963,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 40183,
+        "budget": 51316,
+        "date": "2024-02-26",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN198",
+        "user_id": 5930,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 38319,
+        "budget": 53454,
+        "date": "2024-05-29",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN199",
+        "user_id": 2488,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 39580,
+        "budget": 55127,
+        "date": "2024-03-15",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN200",
+        "user_id": 7955,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 41841,
+        "budget": 45733,
+        "date": "2024-08-27",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN201",
+        "user_id": 7874,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 22185,
+        "budget": 30734,
+        "date": "2024-03-03",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN202",
+        "user_id": 9766,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 16525,
+        "budget": 21208,
+        "date": "2024-03-05",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN203",
+        "user_id": 1879,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 41264,
+        "budget": 60569,
+        "date": "2024-05-18",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN204",
+        "user_id": 6086,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 36647,
+        "budget": 42865,
+        "date": "2024-09-16",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN205",
+        "user_id": 6494,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 45858,
+        "budget": 59805,
+        "date": "2024-04-13",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN206",
+        "user_id": 6494,
+        "merchant": "Tesla",
+        "category": "Automobile",
+        "amount_spent": 34355,
+        "budget": 38824,
+        "date": "2025-01-12",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN207",
+        "user_id": 9192,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 3362,
+        "budget": 19815,
+        "date": "2024-07-29",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN208",
+        "user_id": 8574,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 41207,
+        "budget": 54721,
+        "date": "2024-10-13",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN209",
+        "user_id": 1931,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 3238,
+        "budget": 5348,
+        "date": "2024-10-21",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN210",
+        "user_id": 8574,
+        "merchant": "Swiggy",
+        "category": "Food Delivery",
+        "amount_spent": 9890,
+        "budget": 16932,
+        "date": "2024-11-16",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN211",
+        "user_id": 2488,
+        "merchant": "Decathlon",
+        "category": "Sports",
+        "amount_spent": 25458,
+        "budget": 34435,
+        "date": "2024-06-08",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN212",
+        "user_id": 6558,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 29384,
+        "budget": 47837,
+        "date": "2024-12-13",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN213",
+        "user_id": 7930,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 45076,
+        "budget": 50225,
+        "date": "2024-09-02",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN214",
+        "user_id": 3371,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 46876,
+        "budget": 57933,
+        "date": "2024-06-12",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN215",
+        "user_id": 6494,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 35566,
+        "budget": 50077,
+        "date": "2024-10-27",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN216",
+        "user_id": 3291,
+        "merchant": "Ola",
+        "category": "Transport",
+        "amount_spent": 41981,
+        "budget": 60960,
+        "date": "2024-09-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN217",
+        "user_id": 2053,
+        "merchant": "Netflix",
+        "category": "Entertainment",
+        "amount_spent": 41991,
+        "budget": 59547,
+        "date": "2024-10-23",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN218",
+        "user_id": 7930,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 44706,
+        "budget": 56419,
+        "date": "2024-08-10",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN219",
+        "user_id": 7955,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 48952,
+        "budget": 58923,
+        "date": "2024-08-12",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN220",
+        "user_id": 3731,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 4819,
+        "budget": 16468,
+        "date": "2024-11-12",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN221",
+        "user_id": 6558,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 17079,
+        "budget": 24824,
+        "date": "2024-05-11",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN222",
+        "user_id": 7930,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 20863,
+        "budget": 34203,
+        "date": "2024-11-05",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN223",
+        "user_id": 1093,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 36933,
+        "budget": 47419,
+        "date": "2025-01-09",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN224",
+        "user_id": 7930,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 31954,
+        "budget": 46553,
+        "date": "2024-05-12",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN225",
+        "user_id": 7461,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 20276,
+        "budget": 31078,
+        "date": "2025-01-09",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN226",
+        "user_id": 6175,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 43349,
+        "budget": 47770,
+        "date": "2024-06-29",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN227",
+        "user_id": 8574,
+        "merchant": "Zomato",
+        "category": "Food Delivery",
+        "amount_spent": 17450,
+        "budget": 29178,
+        "date": "2024-07-17",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN228",
+        "user_id": 7461,
+        "merchant": "Myntra",
+        "category": "Clothing",
+        "amount_spent": 39762,
+        "budget": 48352,
+        "date": "2024-07-21",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN229",
+        "user_id": 7874,
+        "merchant": "Nike",
+        "category": "Clothing",
+        "amount_spent": 43998,
+        "budget": 60939,
+        "date": "2025-02-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN230",
+        "user_id": 9766,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 2373,
+        "budget": 18464,
+        "date": "2025-02-13",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN231",
+        "user_id": 9686,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 44577,
+        "budget": 47013,
+        "date": "2024-11-16",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN232",
+        "user_id": 9686,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 20159,
+        "budget": 35820,
+        "date": "2024-09-11",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN233",
+        "user_id": 9192,
+        "merchant": "Starbucks",
+        "category": "Food & Beverages",
+        "amount_spent": 18977,
+        "budget": 25517,
+        "date": "2025-01-27",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN234",
+        "user_id": 7930,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 49255,
+        "budget": 61657,
+        "date": "2024-11-11",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN235",
+        "user_id": 7874,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 36192,
+        "budget": 42135,
+        "date": "2024-03-19",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN236",
+        "user_id": 3291,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 31746,
+        "budget": 39582,
+        "date": "2025-01-01",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN237",
+        "user_id": 9963,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 19290,
+        "budget": 21453,
+        "date": "2025-02-04",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN238",
+        "user_id": 9722,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 13308,
+        "budget": 14335,
+        "date": "2024-08-30",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN239",
+        "user_id": 3371,
+        "merchant": "Decathlon",
+        "category": "Sports",
+        "amount_spent": 29269,
+        "budget": 34895,
+        "date": "2024-05-13",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN240",
+        "user_id": 1931,
+        "merchant": "Walmart",
+        "category": "Groceries",
+        "amount_spent": 14556,
+        "budget": 25425,
+        "date": "2025-01-20",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN241",
+        "user_id": 3731,
+        "merchant": "Apple",
+        "category": "Electronics",
+        "amount_spent": 11587,
+        "budget": 26812,
+        "date": "2024-04-02",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN242",
+        "user_id": 9722,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 14738,
+        "budget": 26790,
+        "date": "2024-09-09",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN243",
+        "user_id": 9192,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 10277,
+        "budget": 20398,
+        "date": "2025-01-05",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN244",
+        "user_id": 6494,
+        "merchant": "Amazon",
+        "category": "Shopping",
+        "amount_spent": 11477,
+        "budget": 27501,
+        "date": "2024-11-15",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN245",
+        "user_id": 7930,
+        "merchant": "Paytm",
+        "category": "Wallet Recharge",
+        "amount_spent": 10944,
+        "budget": 28641,
+        "date": "2025-01-28",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": true,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN246",
+        "user_id": 7461,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 12216,
+        "budget": 18439,
+        "date": "2024-03-23",
+        "insights": {
+            "overspending": false,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN247",
+        "user_id": 2488,
+        "merchant": "Big Bazaar",
+        "category": "Groceries",
+        "amount_spent": 43291,
+        "budget": 47098,
+        "date": "2025-01-18",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN248",
+        "user_id": 4163,
+        "merchant": "Uber",
+        "category": "Transport",
+        "amount_spent": 13766,
+        "budget": 14308,
+        "date": "2024-08-26",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    },
+    {
+        "transaction_id": "TXN249",
+        "user_id": 1879,
+        "merchant": "Google Play",
+        "category": "Subscriptions",
+        "amount_spent": 49713,
+        "budget": 51648,
+        "date": "2024-07-20",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": true
+        }
+    },
+    {
+        "transaction_id": "TXN250",
+        "user_id": 2053,
+        "merchant": "Domino's",
+        "category": "Food & Beverages",
+        "amount_spent": 17451,
+        "budget": 20893,
+        "date": "2024-08-04",
+        "insights": {
+            "overspending": true,
+            "saving_opportunity": false,
+            "unusual_expense": false
+        }
+    }
+]
