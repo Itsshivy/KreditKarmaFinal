@@ -9,7 +9,7 @@
         "date": "2024-07-06",
         "insights": {
             "overspending": true,
-            "saving_opportunity": true,
+            "saving_opportunity": false,
             "unusual_expense": true
         }
     },
@@ -23,8 +23,8 @@
         "budget": 15852,
         "date": "2024-07-06",
         "insights": {
-            "overspending": false,
-            "saving_opportunity": true,
+            "overspending": true,
+            "saving_opportunity": false,
             "unusual_expense": false
         }
     },
@@ -93,9 +93,9 @@
         "budget": 60347,
         "date": "2024-05-10",
         "insights": {
-            "overspending": false,
+            "overspending": true,
             "saving_opportunity": false,
-            "unusual_expense": true
+            "unusual_expense": false
         }
     },
     {
@@ -121,7 +121,7 @@
         "budget": 38890,
         "date": "2025-02-09",
         "insights": {
-            "overspending": false,
+            "overspending": true,
             "saving_opportunity": true,
             "unusual_expense": false
         }
@@ -346,8 +346,8 @@
         "date": "2024-06-17",
         "insights": {
             "overspending": true,
-            "saving_opportunity": false,
-            "unusual_expense": true
+            "saving_opportunity": true,
+            "unusual_expense": false
         }
     },
     {
