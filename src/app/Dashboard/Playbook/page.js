@@ -165,7 +165,7 @@ export default function CreditCardManager() {
               <div className="flex items-center space-x-4">
                 <img src="https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/f7da2911-8309-4463-a6fe-b26521c94165/Personal/Pay/Cards/Credit%20Card/Credit%20Card%20Landing%20Page/Credit%20Cards/Super%20Premium/Regalia/regalia_banner1.png" alt="Credit Card" className="w-16 h-10 rounded-lg" />
                 <div>
-                  <h3 className="text-lg font-semibold">{card.cardHolder}</h3>
+                  <h3 className="text-lg font-semibold text-black">{card.cardHolder}</h3>
                   <ul className="text-sm text-gray-600 mt-1">
                     <li>Balance: ₹{card.balance.toFixed(2)}</li>
                     <li>Reward Points: {card.rewardPoints}</li>

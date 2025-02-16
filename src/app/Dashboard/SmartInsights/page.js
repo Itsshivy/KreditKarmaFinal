@@ -125,13 +125,13 @@ const SmartinsightsPage = () => {
             {/* User Input Section */}
             <div className="bg-white p-8 rounded-2xl shadow-xl mb-8">
                 <h2 className="text-3xl font-bold mb-6 text-teal-800">Enter Your Details</h2>
-                <div className="space-y-6">
+                <div className="space-y-6 text-black">
                     <input
                         type="text"
                         placeholder="User ID"
                         value={userID}
                         onChange={(e) => setUserID(e.target.value)}
-                        className="w-full p-3 border-2 border-teal-200 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all"
+                        className="w-full p-3 border-2 border-teal-200 rounded-lg text-black focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all"
                     />
                     <input
                         type="number"
@@ -146,7 +146,7 @@ const SmartinsightsPage = () => {
             {/* Spending Plan Selection */}
             <div className="bg-white p-8 rounded-2xl shadow-xl mb-8">
                 <h2 className="text-3xl font-bold mb-6 text-teal-800">Select Spending Plan</h2>
-                <div className="space-y-6">
+                <div className="space-y-6 text-black">
                     <div
                         className={`p-6 rounded-xl cursor-pointer transition-all ${
                             selectedPlan === '50-30-20'
@@ -179,7 +179,7 @@ const SmartinsightsPage = () => {
             {/* Display Spending Breakdown */}
             <div className="bg-white p-8 rounded-2xl shadow-xl">
                 <h2 className="text-3xl font-bold mb-6 text-teal-800">Spending Breakdown</h2>
-                <div className="space-y-6">
+                <div className="space-y-6 text-black">
                     <div className="p-6 bg-teal-50 rounded-xl">
                         <h3 className="text-2xl font-semibold text-teal-800">Needs: {needsPercentage}%</h3>
                         <div className="w-full h-3 bg-teal-200 rounded-full mt-4">
@@ -223,7 +223,7 @@ const SmartinsightsPage = () => {
             <div className="bg-white p-8 rounded-2xl shadow-xl mt-8">
                 <h2 className="text-3xl font-bold mb-6 text-teal-800">Transactions for User ID: {userID}</h2>
                 {filteredTransactions.length > 0 ? (
-                    <ul className="space-y-6">
+                    <ul className="space-y-6 text-black">
                         {filteredTransactions.map((transaction) => (
                             <li
                                 key={transaction.transaction_id}

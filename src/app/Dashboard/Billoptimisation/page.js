@@ -155,21 +155,21 @@ const BillOptimization = () => {
                             placeholder="Name (e.g., Credit Card Name)"
                             value={newDueDate.name}
                             onChange={(e) => setNewDueDate({ ...newDueDate, name: e.target.value })}
-                            className="w-1/3 p-3 border-2 border-teal-200 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all"
+                            className="w-1/3 p-3 border-2 border-teal-200 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all text-black"
                         />
                         <input
                             type="number"
-                            placeholder="Day of Month (1-31)"
+                            placeholder="Date of Month (1-31)"
                             value={newDueDate.day}
                             onChange={(e) => setNewDueDate({ ...newDueDate, day: e.target.value })}
-                            className="w-1/3 p-3 border-2 border-teal-200 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all"
+                            className="w-1/3 p-3 border-2 border-teal-200 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all text-black"
                         />
                         <input
                             type="date"
                             placeholder="Expiry Date"
                             value={newDueDate.expiryDate}
                             onChange={(e) => setNewDueDate({ ...newDueDate, expiryDate: e.target.value })}
-                            className="w-1/3 p-3 border-2 border-teal-200 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all"
+                            className="w-1/3 p-3 border-2 border-teal-200 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all text-black"
                         />
                         <button
                             onClick={addDueDate}
@@ -215,7 +215,7 @@ const BillOptimization = () => {
                     type="file"
                     accept="image/jpeg, image/png"
                     onChange={handleImageUpload}
-                    className="w-full p-3 border-2 border-teal-200 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all"
+                    className="w-full p-3 border-2 border-teal-200 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 transition-all text-black"
                 />
                 {isProcessing && <p className="mt-4 text-teal-600">Processing image... Please wait.</p>}
             </div>
@@ -224,7 +224,7 @@ const BillOptimization = () => {
             {extractedText && (
                 <div className="bg-white p-8 rounded-2xl shadow-xl mb-8">
                     <h2 className="text-3xl font-bold mb-6 text-teal-800">Extracted Text</h2>
-                    <pre className="bg-teal-50 p-6 rounded-xl whitespace-pre-wrap">{extractedText}</pre>
+                    <pre className="bg-teal-50 p-6 rounded-xl whitespace-pre-wrap text-black">{extractedText}</pre>
                 </div>
             )}
 

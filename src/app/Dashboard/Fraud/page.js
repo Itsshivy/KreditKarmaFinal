@@ -1,46 +1,13 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 
-// Fraud detection logic
-const detectFraud = (transactions) => {
-  const alerts = [];
-
-  transactions.forEach((tx) => {
-    // Rule 1: Detect high-value transactions (e.g., above ₹50,000)
-    if (tx.amount > 50000) {
-      alerts.push({
-        description: `High-value transaction detected: ₹${tx.amount} by ${tx.user}`,
-      });
-    }
-
-    // Rule 2: Detect transactions from unusual locations (e.g., not in a predefined list of common locations)
-    const commonLocations = ["Mumbai", "Delhi", "Bangalore", "Chennai", "Kolkata"];
-    if (!commonLocations.includes(tx.transaction_location)) {
-      alerts.push({
-        description: `Unusual transaction location detected: ${tx.transaction_location} for transaction by ${tx.user}`,
-      });
-    }
-
-    // Rule 3: Detect transactions with future timestamps (potential data tampering)
-    const currentDate = new Date();
-    const transactionDate = new Date(tx.timestamp);
-    if (transactionDate > currentDate) {
-      alerts.push({
-        description: `Future timestamp detected: ${tx.timestamp} for transaction by ${tx.user}`,
-      });
-    }
-  });
-
-  return alerts;
-};
-
-const Page = () => {
+const FraudPage = () => {
+  const [userId, setUserId] = useState("");
   const [transactions, setTransactions] = useState([]);
   const [fraudAlerts, setFraudAlerts] = useState([]);
-  const [userId, setUserId] = useState("");
-  const [filteredTransactions, setFilteredTransactions] = useState([]);
 
+  // Load transaction data from the JSON file
   useEffect(() => {
     fetch("/raw_transaction_data.json")
       .then((response) => response.json())
@@ -50,16 +17,46 @@ const Page = () => {
       .catch((error) => console.error("Error loading transactions:", error));
   }, []);
 
-  const handleUserIdChange = (e) => {
-    setUserId(e.target.value);
+  // Fraud detection logic
+  const detectFraud = (transactions) => {
+    const alerts = [];
+
+    transactions.forEach((tx) => {
+      const reasons = [];
+
+      // Rule 1: Detect unusual locations
+      const commonLocations = ["Kolkata", "Mumbai", "Delhi", "Bangalore", "Chennai"];
+      if (!commonLocations.includes(tx.transaction_location)) {
+        reasons.push("Unusual Location");
+      }
+
+      // Rule 2: Detect high-value transactions (e.g., above ₹50,000)
+      if (tx.amount_spent > 50000) {
+        reasons.push("Unusual Amount");
+      }
+
+      // Rule 3: Detect unusual times (e.g., late-night transactions)
+      const transactionTime = new Date(tx.date).getHours();
+      if (transactionTime < 6 || transactionTime > 22) {
+        reasons.push("Unusual Time");
+      }
+
+      if (reasons.length > 0) {
+        alerts.push({
+          ...tx,
+          fraudulent: true,
+          reasons: reasons,
+        });
+      }
+    });
+
+    return alerts;
   };
 
+  // Handle fetching data for the entered user ID
   const handleFetchData = () => {
-    const filtered = transactions.filter((tx) =>
-      tx.user.toLowerCase().includes(userId.toLowerCase())
-    );
-    setFilteredTransactions(filtered);
-    setFraudAlerts(detectFraud(filtered));
+    const userTransactions = transactions.filter((tx) => tx.user_id === parseInt(userId));
+    setFraudAlerts(detectFraud(userTransactions));
   };
 
   return (
@@ -70,16 +67,16 @@ const Page = () => {
         {/* User ID Input */}
         <div className="mb-8">
           <label htmlFor="userId" className="block text-sm font-medium text-teal-700">
-            Enter User Name:
+            Enter User ID:
           </label>
           <div className="mt-1 flex gap-2">
             <input
               type="text"
               id="userId"
               value={userId}
-              onChange={handleUserIdChange}
-              className="flex-1 p-2 border border-teal-300 rounded-md focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
-              placeholder="Enter user name"
+              onChange={(e) => setUserId(e.target.value)}
+              className="flex-1 p-2 border border-teal-300 rounded-md focus:ring-2 focus:ring-teal-500 focus:border-teal-500 text-black"
+              placeholder="Enter user ID"
             />
             <button
               onClick={handleFetchData}
@@ -88,35 +85,6 @@ const Page = () => {
               Fetch Data
             </button>
           </div>
-        </div>
-
-        {/* Transactions Section */}
-        <div className="mb-8">
-          <h2 className="text-xl font-semibold text-teal-700 mb-4">Transactions</h2>
-          {filteredTransactions.length > 0 ? (
-            <ul className="space-y-3">
-              {filteredTransactions.map((tx) => (
-                <li
-                  key={tx.id}
-                  className="p-4 border border-teal-200 rounded-lg bg-teal-50 hover:bg-teal-100 transition-colors"
-                >
-                  <div className="flex justify-between items-center">
-                    <div>
-                      <p className="text-teal-900 font-medium">{tx.user}</p>
-                      <p className="text-sm text-teal-600">
-                        ₹{tx.amount.toLocaleString()} • {tx.transaction_location}
-                      </p>
-                    </div>
-                    <p className="text-sm text-teal-500">
-                      {new Date(tx.timestamp).toLocaleString()}
-                    </p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p className="text-teal-600">No transactions found for this user.</p>
-          )}
         </div>
 
         {/* Fraud Alerts Section */}
@@ -129,7 +97,18 @@ const Page = () => {
                   key={index}
                   className="p-4 border border-red-200 rounded-lg bg-red-50 hover:bg-red-100 transition-colors"
                 >
-                  <p className="text-red-700">🚨 {alert.description}</p>
+                  <p className="text-red-700">
+                    🚨 <strong>Transaction ID:</strong> {alert.transaction_id}
+                  </p>
+                  <p className="text-red-700">
+                    <strong>Amount:</strong> ₹{alert.amount_spent}
+                  </p>
+                  <p className="text-red-700">
+                    <strong>Location:</strong> {alert.transaction_location}
+                  </p>
+                  <p className="text-red-700">
+                    <strong>Reasons:</strong> {alert.reasons.join(", ")}
+                  </p>
                 </li>
               ))}
             </ul>
@@ -142,4 +121,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default FraudPage;

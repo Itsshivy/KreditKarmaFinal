@@ -19,7 +19,7 @@
         "user_id": 1253,
         "merchant": "Paytm",
         "category": "Wallet Recharge",
-        "amount_spent": 7386,
+        "amount_spent": 117386,
         "budget": 15852,
         "date": "2024-07-06",
         "insights": {
@@ -39,7 +39,7 @@
         "insights": {
             "overspending": true,
             "saving_opportunity": false,
-            "unusual_expense": true
+            "unusual_expense": false
         }
     },
     {
@@ -121,8 +121,8 @@
         "budget": 38890,
         "date": "2025-02-09",
         "insights": {
-            "overspending": true,
-            "saving_opportunity": true,
+            "overspending": false,
+            "saving_opportunity": false,
             "unusual_expense": false
         }
     },
@@ -346,7 +346,7 @@
         "date": "2024-06-17",
         "insights": {
             "overspending": true,
-            "saving_opportunity": true,
+            "saving_opportunity": false,
             "unusual_expense": false
         }
     },

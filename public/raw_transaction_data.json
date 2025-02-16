@@ -1,5 +1,25 @@
 [
     {
+      "transaction_id": "TXN54",
+      "user_id": 7874,
+      "merchant": "Starbucks",
+      "category": "Food & Beverages",
+      "amount_spent": 44283,
+      "budget": 49665,
+      "date": "2024-07-08",
+      "transaction_location": "Dubai"
+    },
+    {
+      "transaction_id": "TXN55",
+      "user_id": 7874,
+      "merchant": "Amazon",
+      "category": "Shopping",
+      "amount_spent": 75000,
+      "budget": 50000,
+      "date": "2024-07-08T23:59:00",
+      "transaction_location": "New York"
+    },
+    {
         "id": 1,
         "user": "Ishita Verma",
         "user_location": "Hyderabad",
