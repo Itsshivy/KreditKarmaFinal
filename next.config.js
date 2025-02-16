@@ -1,7 +1,5 @@
-import type { Config } from 'tailwindcss';
-import { NextConfig } from 'next';
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
@@ -38,10 +36,3 @@ const config: Config = {
   },
   plugins: [],
 };
-
-export default config;
-const nextConfig: NextConfig = {
-  reactStrictMode: true,
-};
-
-export default nextConfig;

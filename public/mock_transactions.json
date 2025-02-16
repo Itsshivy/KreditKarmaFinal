@@ -1,0 +1,4504 @@
+{
+    "mock_transactions": [
+        {
+            "transaction_id": "TXN1",
+            "user_id": 8437,
+            "card_number": "****7890",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 40729,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-03T19:36:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN2",
+            "user_id": 5210,
+            "card_number": "****7890",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 4226,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-28T19:49:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN3",
+            "user_id": 2695,
+            "card_number": "****3456",
+            "card_type": "Mastercard",
+            "merchant_category": "Groceries",
+            "transaction_amount": 37815,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-13T19:45:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN4",
+            "user_id": 3076,
+            "card_number": "****5566",
+            "card_type": "Rupay",
+            "merchant_category": "Electronics",
+            "transaction_amount": 196932,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-29T23:05:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN5",
+            "user_id": 9273,
+            "card_number": "****5566",
+            "card_type": "Amex",
+            "merchant_category": "Travel",
+            "transaction_amount": 189259,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-11T17:44:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN6",
+            "user_id": 5907,
+            "card_number": "****5566",
+            "card_type": "Mastercard",
+            "merchant_category": "Gaming",
+            "transaction_amount": 13117,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 1,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-20T21:17:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN7",
+            "user_id": 9196,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Luxury",
+            "transaction_amount": 177512,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-31T22:23:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN8",
+            "user_id": 7355,
+            "card_number": "****5566",
+            "card_type": "Rupay",
+            "merchant_category": "Electronics",
+            "transaction_amount": 62377,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-19T13:24:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN9",
+            "user_id": 6409,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Food",
+            "transaction_amount": 17484,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-22T06:47:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN10",
+            "user_id": 5719,
+            "card_number": "****5566",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 63101,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-21T23:58:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN11",
+            "user_id": 5063,
+            "card_number": "****7788",
+            "card_type": "Rupay",
+            "merchant_category": "Travel",
+            "transaction_amount": 123151,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-11T03:25:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN12",
+            "user_id": 3758,
+            "card_number": "****6677",
+            "card_type": "Visa",
+            "merchant_category": "Food",
+            "transaction_amount": 165835,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-08T07:14:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN13",
+            "user_id": 2160,
+            "card_number": "****7890",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 5229,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-07T22:38:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN14",
+            "user_id": 9573,
+            "card_number": "****4433",
+            "card_type": "Visa",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 84141,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-30T19:03:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN15",
+            "user_id": 5047,
+            "card_number": "****5566",
+            "card_type": "Rupay",
+            "merchant_category": "Food",
+            "transaction_amount": 141277,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-21T12:31:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN16",
+            "user_id": 7006,
+            "card_number": "****9988",
+            "card_type": "Amex",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 105844,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 0,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-24T00:34:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN17",
+            "user_id": 7415,
+            "card_number": "****1122",
+            "card_type": "Amex",
+            "merchant_category": "Clothing",
+            "transaction_amount": 78181,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-24T18:13:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN18",
+            "user_id": 9077,
+            "card_number": "****5566",
+            "card_type": "Visa",
+            "merchant_category": "Food",
+            "transaction_amount": 107073,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-22T15:41:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN19",
+            "user_id": 7040,
+            "card_number": "****7788",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 46046,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-28T18:04:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN20",
+            "user_id": 2295,
+            "card_number": "****3344",
+            "card_type": "Mastercard",
+            "merchant_category": "Luxury",
+            "transaction_amount": 81232,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-06T04:34:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN21",
+            "user_id": 6670,
+            "card_number": "****1122",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 118672,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-04T04:14:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN22",
+            "user_id": 9299,
+            "card_number": "****5566",
+            "card_type": "Rupay",
+            "merchant_category": "Travel",
+            "transaction_amount": 43131,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-19T12:01:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN23",
+            "user_id": 7800,
+            "card_number": "****7788",
+            "card_type": "Mastercard",
+            "merchant_category": "Clothing",
+            "transaction_amount": 95707,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-07T02:10:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN24",
+            "user_id": 4852,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Food",
+            "transaction_amount": 19060,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-12T10:20:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN25",
+            "user_id": 7968,
+            "card_number": "****4433",
+            "card_type": "Mastercard",
+            "merchant_category": "Clothing",
+            "transaction_amount": 130987,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-11T17:20:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN26",
+            "user_id": 8800,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Food",
+            "transaction_amount": 113633,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-12T10:48:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN27",
+            "user_id": 2011,
+            "card_number": "****6677",
+            "card_type": "Visa",
+            "merchant_category": "Electronics",
+            "transaction_amount": 179471,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-19T01:00:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN28",
+            "user_id": 1869,
+            "card_number": "****9988",
+            "card_type": "Visa",
+            "merchant_category": "Electronics",
+            "transaction_amount": 37795,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-08T10:02:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN29",
+            "user_id": 1401,
+            "card_number": "****7788",
+            "card_type": "Rupay",
+            "merchant_category": "Groceries",
+            "transaction_amount": 121713,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-02T22:51:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN30",
+            "user_id": 1325,
+            "card_number": "****8899",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 142450,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-12T02:24:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN31",
+            "user_id": 6493,
+            "card_number": "****6677",
+            "card_type": "Rupay",
+            "merchant_category": "Luxury",
+            "transaction_amount": 63644,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-26T15:23:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN32",
+            "user_id": 7754,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Groceries",
+            "transaction_amount": 46822,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-06T00:17:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN33",
+            "user_id": 4932,
+            "card_number": "****9988",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 183315,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 2,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-11T15:23:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN34",
+            "user_id": 4603,
+            "card_number": "****8899",
+            "card_type": "Visa",
+            "merchant_category": "Travel",
+            "transaction_amount": 179440,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-12T09:42:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN35",
+            "user_id": 8133,
+            "card_number": "****7890",
+            "card_type": "Mastercard",
+            "merchant_category": "Groceries",
+            "transaction_amount": 175118,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-03T16:31:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN36",
+            "user_id": 6084,
+            "card_number": "****7788",
+            "card_type": "Mastercard",
+            "merchant_category": "Luxury",
+            "transaction_amount": 104726,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-19T19:00:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN37",
+            "user_id": 8699,
+            "card_number": "****8899",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 152006,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-06T06:10:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN38",
+            "user_id": 7977,
+            "card_number": "****4433",
+            "card_type": "Amex",
+            "merchant_category": "Clothing",
+            "transaction_amount": 133618,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-28T00:24:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN39",
+            "user_id": 1446,
+            "card_number": "****3344",
+            "card_type": "Mastercard",
+            "merchant_category": "Gaming",
+            "transaction_amount": 126160,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-19T12:11:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN40",
+            "user_id": 9394,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Gaming",
+            "transaction_amount": 192849,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-29T09:52:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN41",
+            "user_id": 3211,
+            "card_number": "****3456",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 101173,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-14T14:29:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN42",
+            "user_id": 7236,
+            "card_number": "****1122",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 10958,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-04T00:56:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN43",
+            "user_id": 3176,
+            "card_number": "****3456",
+            "card_type": "Visa",
+            "merchant_category": "Food",
+            "transaction_amount": 193974,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-08T12:52:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN44",
+            "user_id": 5122,
+            "card_number": "****7890",
+            "card_type": "Rupay",
+            "merchant_category": "Electronics",
+            "transaction_amount": 150861,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-19T07:34:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN45",
+            "user_id": 3905,
+            "card_number": "****1122",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 102763,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-03T08:30:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN46",
+            "user_id": 6868,
+            "card_number": "****7890",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 93110,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-26T19:59:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN47",
+            "user_id": 8685,
+            "card_number": "****3456",
+            "card_type": "Amex",
+            "merchant_category": "Clothing",
+            "transaction_amount": 183956,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-15T20:22:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN48",
+            "user_id": 6070,
+            "card_number": "****7890",
+            "card_type": "Visa",
+            "merchant_category": "Clothing",
+            "transaction_amount": 171527,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-02T03:31:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN49",
+            "user_id": 2555,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 74606,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-30T23:20:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN50",
+            "user_id": 3868,
+            "card_number": "****7788",
+            "card_type": "Rupay",
+            "merchant_category": "Travel",
+            "transaction_amount": 189589,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-15T16:03:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN51",
+            "user_id": 9051,
+            "card_number": "****7890",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 6724,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-09T17:35:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN52",
+            "user_id": 7786,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Travel",
+            "transaction_amount": 57008,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-29T10:42:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN53",
+            "user_id": 1910,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Gaming",
+            "transaction_amount": 75772,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-08T23:21:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN54",
+            "user_id": 1016,
+            "card_number": "****6677",
+            "card_type": "Amex",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 70481,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-29T00:06:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN55",
+            "user_id": 3054,
+            "card_number": "****7890",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 28550,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-25T15:48:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN56",
+            "user_id": 5806,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Luxury",
+            "transaction_amount": 9057,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-22T13:22:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN57",
+            "user_id": 6918,
+            "card_number": "****5566",
+            "card_type": "Amex",
+            "merchant_category": "Food",
+            "transaction_amount": 89329,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 4,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-26T19:19:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN58",
+            "user_id": 4571,
+            "card_number": "****6677",
+            "card_type": "Rupay",
+            "merchant_category": "Groceries",
+            "transaction_amount": 52081,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-25T11:34:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN59",
+            "user_id": 1650,
+            "card_number": "****4433",
+            "card_type": "Amex",
+            "merchant_category": "Travel",
+            "transaction_amount": 166703,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-26T15:24:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN60",
+            "user_id": 2004,
+            "card_number": "****3456",
+            "card_type": "Mastercard",
+            "merchant_category": "Food",
+            "transaction_amount": 169333,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-22T14:47:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN61",
+            "user_id": 6524,
+            "card_number": "****7890",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 67575,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-19T04:34:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN62",
+            "user_id": 2263,
+            "card_number": "****7890",
+            "card_type": "Visa",
+            "merchant_category": "Food",
+            "transaction_amount": 90446,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-18T20:29:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN63",
+            "user_id": 4518,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Groceries",
+            "transaction_amount": 149994,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-06T06:57:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN64",
+            "user_id": 1859,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 58300,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-12T18:55:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN65",
+            "user_id": 9082,
+            "card_number": "****9988",
+            "card_type": "Mastercard",
+            "merchant_category": "Clothing",
+            "transaction_amount": 17493,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-27T10:12:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN66",
+            "user_id": 1000,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Groceries",
+            "transaction_amount": 22800,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-01T12:49:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN67",
+            "user_id": 1484,
+            "card_number": "****7890",
+            "card_type": "Visa",
+            "merchant_category": "Luxury",
+            "transaction_amount": 21778,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-23T03:21:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN68",
+            "user_id": 9283,
+            "card_number": "****7890",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 170193,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 0,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-20T23:25:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN69",
+            "user_id": 9967,
+            "card_number": "****5566",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 61138,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-28T00:49:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN70",
+            "user_id": 6392,
+            "card_number": "****5566",
+            "card_type": "Amex",
+            "merchant_category": "Gaming",
+            "transaction_amount": 193740,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-03T19:04:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN71",
+            "user_id": 6479,
+            "card_number": "****9988",
+            "card_type": "Mastercard",
+            "merchant_category": "Gaming",
+            "transaction_amount": 50127,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-06T08:44:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN72",
+            "user_id": 5365,
+            "card_number": "****6677",
+            "card_type": "Mastercard",
+            "merchant_category": "Luxury",
+            "transaction_amount": 85965,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-25T02:36:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN73",
+            "user_id": 8418,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Clothing",
+            "transaction_amount": 146943,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-30T08:53:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN74",
+            "user_id": 1304,
+            "card_number": "****5566",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 67385,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-22T09:47:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN75",
+            "user_id": 3386,
+            "card_number": "****4433",
+            "card_type": "Amex",
+            "merchant_category": "Clothing",
+            "transaction_amount": 77469,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-04T13:01:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN76",
+            "user_id": 5480,
+            "card_number": "****6677",
+            "card_type": "Rupay",
+            "merchant_category": "Electronics",
+            "transaction_amount": 169306,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-11T04:43:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN77",
+            "user_id": 6289,
+            "card_number": "****4433",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 23546,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-02T19:24:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN78",
+            "user_id": 9999,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 46635,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-20T06:21:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN79",
+            "user_id": 2137,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Food",
+            "transaction_amount": 30026,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-04T10:44:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN80",
+            "user_id": 7912,
+            "card_number": "****3344",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 15772,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-01T08:46:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN81",
+            "user_id": 5895,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 43119,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-12T02:06:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN82",
+            "user_id": 3721,
+            "card_number": "****6677",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 1322,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-17T23:22:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN83",
+            "user_id": 2797,
+            "card_number": "****7788",
+            "card_type": "Visa",
+            "merchant_category": "Electronics",
+            "transaction_amount": 102563,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-11T09:36:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN84",
+            "user_id": 4768,
+            "card_number": "****6677",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 121247,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-21T03:10:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN85",
+            "user_id": 2374,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Groceries",
+            "transaction_amount": 127977,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-23T00:23:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN86",
+            "user_id": 1938,
+            "card_number": "****7890",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 196835,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-05T17:55:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN87",
+            "user_id": 9780,
+            "card_number": "****7788",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 177211,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-14T21:01:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN88",
+            "user_id": 6311,
+            "card_number": "****7890",
+            "card_type": "Amex",
+            "merchant_category": "Gaming",
+            "transaction_amount": 140577,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-04T05:29:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN89",
+            "user_id": 3088,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 31914,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-02T19:11:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN90",
+            "user_id": 4514,
+            "card_number": "****6677",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 61329,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-28T18:02:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN91",
+            "user_id": 9476,
+            "card_number": "****7890",
+            "card_type": "Amex",
+            "merchant_category": "Groceries",
+            "transaction_amount": 23333,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 0,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-07T03:42:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN92",
+            "user_id": 3285,
+            "card_number": "****7788",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 31473,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-01T23:55:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN93",
+            "user_id": 1121,
+            "card_number": "****9988",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 119684,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-15T06:53:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN94",
+            "user_id": 2182,
+            "card_number": "****5566",
+            "card_type": "Amex",
+            "merchant_category": "Electronics",
+            "transaction_amount": 62499,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 4,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-22T15:38:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN95",
+            "user_id": 2000,
+            "card_number": "****1122",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 8706,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-20T04:41:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN96",
+            "user_id": 6042,
+            "card_number": "****4433",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 59107,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-23T22:42:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN97",
+            "user_id": 2753,
+            "card_number": "****7788",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 172291,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-02T05:31:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN98",
+            "user_id": 8191,
+            "card_number": "****9988",
+            "card_type": "Amex",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 70514,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-16T19:26:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN99",
+            "user_id": 5036,
+            "card_number": "****3456",
+            "card_type": "Visa",
+            "merchant_category": "Travel",
+            "transaction_amount": 89519,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-17T03:36:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN100",
+            "user_id": 6361,
+            "card_number": "****7890",
+            "card_type": "Visa",
+            "merchant_category": "Electronics",
+            "transaction_amount": 32993,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-25T02:09:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN101",
+            "user_id": 8317,
+            "card_number": "****3456",
+            "card_type": "Amex",
+            "merchant_category": "Clothing",
+            "transaction_amount": 76739,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-26T12:44:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN102",
+            "user_id": 2200,
+            "card_number": "****8899",
+            "card_type": "Amex",
+            "merchant_category": "Travel",
+            "transaction_amount": 177722,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-28T17:47:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN103",
+            "user_id": 6571,
+            "card_number": "****6677",
+            "card_type": "Rupay",
+            "merchant_category": "Food",
+            "transaction_amount": 66849,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-12T02:56:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN104",
+            "user_id": 5546,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 183632,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-30T03:34:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN105",
+            "user_id": 4176,
+            "card_number": "****7788",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 14538,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-03T10:51:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN106",
+            "user_id": 7207,
+            "card_number": "****5566",
+            "card_type": "Amex",
+            "merchant_category": "Travel",
+            "transaction_amount": 113262,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-18T03:14:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN107",
+            "user_id": 1163,
+            "card_number": "****1122",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 39297,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-02T01:25:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN108",
+            "user_id": 4633,
+            "card_number": "****5566",
+            "card_type": "Visa",
+            "merchant_category": "Travel",
+            "transaction_amount": 178135,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-03T17:42:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN109",
+            "user_id": 8138,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 182842,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-19T11:13:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN110",
+            "user_id": 5967,
+            "card_number": "****7890",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 74652,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-20T23:35:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN111",
+            "user_id": 4819,
+            "card_number": "****3456",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 198575,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-05T00:48:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN112",
+            "user_id": 1569,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Gaming",
+            "transaction_amount": 35131,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-12T18:07:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN113",
+            "user_id": 3510,
+            "card_number": "****7890",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 32042,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-23T10:36:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN114",
+            "user_id": 6680,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Food",
+            "transaction_amount": 68328,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-09T05:58:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN115",
+            "user_id": 1543,
+            "card_number": "****9988",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 138916,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-17T14:30:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN116",
+            "user_id": 5326,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Clothing",
+            "transaction_amount": 103090,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-03T06:57:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN117",
+            "user_id": 9217,
+            "card_number": "****1122",
+            "card_type": "Amex",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 17079,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-14T20:57:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN118",
+            "user_id": 8953,
+            "card_number": "****5566",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 148749,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-13T08:05:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN119",
+            "user_id": 2526,
+            "card_number": "****4433",
+            "card_type": "Visa",
+            "merchant_category": "Clothing",
+            "transaction_amount": 174833,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-06T06:57:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN120",
+            "user_id": 5649,
+            "card_number": "****9988",
+            "card_type": "Rupay",
+            "merchant_category": "Groceries",
+            "transaction_amount": 149858,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-05T18:06:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN121",
+            "user_id": 5232,
+            "card_number": "****4433",
+            "card_type": "Rupay",
+            "merchant_category": "Food",
+            "transaction_amount": 136290,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-06T01:35:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN122",
+            "user_id": 6806,
+            "card_number": "****5566",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 101942,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-17T03:58:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN123",
+            "user_id": 8103,
+            "card_number": "****7890",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 193980,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-16T13:33:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN124",
+            "user_id": 9573,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Groceries",
+            "transaction_amount": 50522,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-16T06:46:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN125",
+            "user_id": 8922,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Groceries",
+            "transaction_amount": 89465,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-19T15:41:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN126",
+            "user_id": 4258,
+            "card_number": "****4433",
+            "card_type": "Visa",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 60990,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 1,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-16T01:10:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN127",
+            "user_id": 3214,
+            "card_number": "****3344",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 152519,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-22T18:37:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN128",
+            "user_id": 3739,
+            "card_number": "****5566",
+            "card_type": "Visa",
+            "merchant_category": "Luxury",
+            "transaction_amount": 137731,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-27T13:21:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN129",
+            "user_id": 5496,
+            "card_number": "****4433",
+            "card_type": "Amex",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 28823,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 5,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-10T03:19:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN130",
+            "user_id": 3387,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 87421,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-06T10:25:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN131",
+            "user_id": 4749,
+            "card_number": "****7788",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 2400,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-18T23:21:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN132",
+            "user_id": 7688,
+            "card_number": "****6677",
+            "card_type": "Visa",
+            "merchant_category": "Clothing",
+            "transaction_amount": 19353,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-06T21:04:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN133",
+            "user_id": 4891,
+            "card_number": "****6677",
+            "card_type": "Rupay",
+            "merchant_category": "Luxury",
+            "transaction_amount": 61886,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-14T05:32:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN134",
+            "user_id": 4414,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Electronics",
+            "transaction_amount": 94790,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-16T20:18:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN135",
+            "user_id": 1548,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Gaming",
+            "transaction_amount": 85297,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-07T20:28:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN136",
+            "user_id": 8548,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Gaming",
+            "transaction_amount": 101511,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-19T15:00:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN137",
+            "user_id": 9468,
+            "card_number": "****9988",
+            "card_type": "Amex",
+            "merchant_category": "Travel",
+            "transaction_amount": 155573,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-14T14:35:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN138",
+            "user_id": 7056,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Clothing",
+            "transaction_amount": 127885,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-16T06:43:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN139",
+            "user_id": 9438,
+            "card_number": "****3456",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 75069,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-16T04:26:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN140",
+            "user_id": 2435,
+            "card_number": "****6677",
+            "card_type": "Rupay",
+            "merchant_category": "Groceries",
+            "transaction_amount": 7418,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-05T11:05:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN141",
+            "user_id": 1490,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Groceries",
+            "transaction_amount": 165251,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-31T16:10:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN142",
+            "user_id": 4327,
+            "card_number": "****4433",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 58261,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-02T06:47:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN143",
+            "user_id": 7971,
+            "card_number": "****7788",
+            "card_type": "Rupay",
+            "merchant_category": "Groceries",
+            "transaction_amount": 150477,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-10T09:32:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN144",
+            "user_id": 7990,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Luxury",
+            "transaction_amount": 199962,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-20T15:50:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN145",
+            "user_id": 1331,
+            "card_number": "****3456",
+            "card_type": "Visa",
+            "merchant_category": "Luxury",
+            "transaction_amount": 78900,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-19T13:20:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN146",
+            "user_id": 3942,
+            "card_number": "****1122",
+            "card_type": "Rupay",
+            "merchant_category": "Electronics",
+            "transaction_amount": 124902,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-10T20:27:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN147",
+            "user_id": 9762,
+            "card_number": "****3456",
+            "card_type": "Amex",
+            "merchant_category": "Travel",
+            "transaction_amount": 100442,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-06T19:37:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN148",
+            "user_id": 9541,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Luxury",
+            "transaction_amount": 42956,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-30T04:06:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN149",
+            "user_id": 4225,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Luxury",
+            "transaction_amount": 67042,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-18T06:23:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN150",
+            "user_id": 5581,
+            "card_number": "****6677",
+            "card_type": "Mastercard",
+            "merchant_category": "Luxury",
+            "transaction_amount": 90385,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-21T20:03:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN151",
+            "user_id": 7981,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Clothing",
+            "transaction_amount": 178841,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-04T02:47:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN152",
+            "user_id": 9338,
+            "card_number": "****1122",
+            "card_type": "Amex",
+            "merchant_category": "Gaming",
+            "transaction_amount": 82407,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-30T13:36:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN153",
+            "user_id": 2214,
+            "card_number": "****7788",
+            "card_type": "Visa",
+            "merchant_category": "Food",
+            "transaction_amount": 37372,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-20T19:25:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN154",
+            "user_id": 4896,
+            "card_number": "****3456",
+            "card_type": "Mastercard",
+            "merchant_category": "Food",
+            "transaction_amount": 178004,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 5,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-27T22:35:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN155",
+            "user_id": 3303,
+            "card_number": "****8899",
+            "card_type": "Rupay",
+            "merchant_category": "Gaming",
+            "transaction_amount": 79629,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-01T07:54:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN156",
+            "user_id": 9556,
+            "card_number": "****4433",
+            "card_type": "Mastercard",
+            "merchant_category": "Clothing",
+            "transaction_amount": 94690,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-17T14:24:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN157",
+            "user_id": 2788,
+            "card_number": "****6677",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 135070,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-14T00:05:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN158",
+            "user_id": 6028,
+            "card_number": "****5566",
+            "card_type": "Visa",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 100311,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-12T04:46:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN159",
+            "user_id": 4559,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Electronics",
+            "transaction_amount": 162350,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-20T13:12:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN160",
+            "user_id": 3125,
+            "card_number": "****8899",
+            "card_type": "Amex",
+            "merchant_category": "Electronics",
+            "transaction_amount": 22054,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-07T22:58:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN161",
+            "user_id": 3143,
+            "card_number": "****3344",
+            "card_type": "Mastercard",
+            "merchant_category": "Luxury",
+            "transaction_amount": 164099,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-23T16:07:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN162",
+            "user_id": 2808,
+            "card_number": "****1122",
+            "card_type": "Amex",
+            "merchant_category": "Electronics",
+            "transaction_amount": 55355,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-30T03:27:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN163",
+            "user_id": 4851,
+            "card_number": "****7890",
+            "card_type": "Mastercard",
+            "merchant_category": "Luxury",
+            "transaction_amount": 114570,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-21T19:31:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN164",
+            "user_id": 7131,
+            "card_number": "****7890",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 199800,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-18T05:28:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN165",
+            "user_id": 5887,
+            "card_number": "****4433",
+            "card_type": "Mastercard",
+            "merchant_category": "Food",
+            "transaction_amount": 182363,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-22T20:34:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN166",
+            "user_id": 7202,
+            "card_number": "****4433",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 79134,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-10T13:10:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN167",
+            "user_id": 4629,
+            "card_number": "****7788",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 123527,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 0,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-12T09:33:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN168",
+            "user_id": 4761,
+            "card_number": "****7788",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 140733,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-13T06:03:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN169",
+            "user_id": 3406,
+            "card_number": "****7788",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 49212,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-10T04:06:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN170",
+            "user_id": 4853,
+            "card_number": "****9988",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 149860,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-15T06:50:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN171",
+            "user_id": 7764,
+            "card_number": "****4433",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 179622,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 5,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-16T01:52:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN172",
+            "user_id": 8084,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 199621,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-05T14:48:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN173",
+            "user_id": 6267,
+            "card_number": "****7890",
+            "card_type": "Amex",
+            "merchant_category": "Clothing",
+            "transaction_amount": 157748,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-21T16:15:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN174",
+            "user_id": 1487,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 126901,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-06T12:30:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN175",
+            "user_id": 8726,
+            "card_number": "****5566",
+            "card_type": "Mastercard",
+            "merchant_category": "Groceries",
+            "transaction_amount": 187925,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-11T20:35:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN176",
+            "user_id": 6848,
+            "card_number": "****4433",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 114193,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-31T22:17:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN177",
+            "user_id": 2043,
+            "card_number": "****3344",
+            "card_type": "Rupay",
+            "merchant_category": "Travel",
+            "transaction_amount": 8784,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-18T16:54:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN178",
+            "user_id": 9801,
+            "card_number": "****9988",
+            "card_type": "Mastercard",
+            "merchant_category": "Gaming",
+            "transaction_amount": 195974,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-03T12:16:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN179",
+            "user_id": 2224,
+            "card_number": "****6677",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 7821,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-17T16:51:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN180",
+            "user_id": 2440,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 69385,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-28T05:18:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN181",
+            "user_id": 5626,
+            "card_number": "****4433",
+            "card_type": "Amex",
+            "merchant_category": "Electronics",
+            "transaction_amount": 59012,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-06T20:47:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN182",
+            "user_id": 6303,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Luxury",
+            "transaction_amount": 121474,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-12T01:34:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN183",
+            "user_id": 6407,
+            "card_number": "****4433",
+            "card_type": "Visa",
+            "merchant_category": "Food",
+            "transaction_amount": 194207,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-25T22:31:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN184",
+            "user_id": 1115,
+            "card_number": "****1122",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 1356,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-12T17:19:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN185",
+            "user_id": 1906,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Luxury",
+            "transaction_amount": 37311,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-01T21:34:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN186",
+            "user_id": 4997,
+            "card_number": "****9988",
+            "card_type": "Rupay",
+            "merchant_category": "Gaming",
+            "transaction_amount": 192695,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-07T01:29:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN187",
+            "user_id": 4286,
+            "card_number": "****3456",
+            "card_type": "Amex",
+            "merchant_category": "Clothing",
+            "transaction_amount": 130291,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-31T05:17:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN188",
+            "user_id": 6803,
+            "card_number": "****7890",
+            "card_type": "Mastercard",
+            "merchant_category": "Food",
+            "transaction_amount": 26959,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-15T07:34:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN189",
+            "user_id": 9270,
+            "card_number": "****4433",
+            "card_type": "Amex",
+            "merchant_category": "Gaming",
+            "transaction_amount": 34255,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 5,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-09T23:49:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN190",
+            "user_id": 3056,
+            "card_number": "****3456",
+            "card_type": "Mastercard",
+            "merchant_category": "Groceries",
+            "transaction_amount": 138512,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-10T09:09:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN191",
+            "user_id": 6655,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Groceries",
+            "transaction_amount": 106264,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-15T12:57:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN192",
+            "user_id": 5091,
+            "card_number": "****3344",
+            "card_type": "Rupay",
+            "merchant_category": "Travel",
+            "transaction_amount": 185291,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-22T22:04:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN193",
+            "user_id": 6587,
+            "card_number": "****8899",
+            "card_type": "Amex",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 148140,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-01T14:58:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN194",
+            "user_id": 2778,
+            "card_number": "****9988",
+            "card_type": "Mastercard",
+            "merchant_category": "Luxury",
+            "transaction_amount": 192941,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-24T21:14:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN195",
+            "user_id": 7348,
+            "card_number": "****3456",
+            "card_type": "Visa",
+            "merchant_category": "Luxury",
+            "transaction_amount": 30481,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-31T22:38:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN196",
+            "user_id": 8361,
+            "card_number": "****9988",
+            "card_type": "Rupay",
+            "merchant_category": "Food",
+            "transaction_amount": 191389,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-03T11:33:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN197",
+            "user_id": 9501,
+            "card_number": "****5566",
+            "card_type": "Rupay",
+            "merchant_category": "Groceries",
+            "transaction_amount": 82480,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 3,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-24T00:25:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN198",
+            "user_id": 9776,
+            "card_number": "****7788",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 39322,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-13T09:03:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN199",
+            "user_id": 1979,
+            "card_number": "****7890",
+            "card_type": "Mastercard",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 165808,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-24T16:03:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN200",
+            "user_id": 9389,
+            "card_number": "****8899",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 58536,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-30T02:45:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN201",
+            "user_id": 9702,
+            "card_number": "****5566",
+            "card_type": "Visa",
+            "merchant_category": "Luxury",
+            "transaction_amount": 115824,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-31T09:31:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN202",
+            "user_id": 1803,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 40887,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-05T00:39:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN203",
+            "user_id": 5912,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 111059,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-25T16:56:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN204",
+            "user_id": 1925,
+            "card_number": "****7890",
+            "card_type": "Rupay",
+            "merchant_category": "Luxury",
+            "transaction_amount": 49251,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-02T17:56:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN205",
+            "user_id": 2785,
+            "card_number": "****9988",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 110685,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-12T11:31:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN206",
+            "user_id": 2433,
+            "card_number": "****7890",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 169678,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 4,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-22T02:13:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN207",
+            "user_id": 1545,
+            "card_number": "****3344",
+            "card_type": "Mastercard",
+            "merchant_category": "Groceries",
+            "transaction_amount": 68176,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-03T10:48:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN208",
+            "user_id": 5378,
+            "card_number": "****8899",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 23153,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-04T22:47:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN209",
+            "user_id": 1206,
+            "card_number": "****9988",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 98737,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-23T17:27:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN210",
+            "user_id": 7465,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Gaming",
+            "transaction_amount": 82350,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-14T19:57:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN211",
+            "user_id": 9504,
+            "card_number": "****8899",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 120847,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-16T19:57:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN212",
+            "user_id": 7625,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Electronics",
+            "transaction_amount": 6133,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-20T20:06:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN213",
+            "user_id": 6907,
+            "card_number": "****7890",
+            "card_type": "Rupay",
+            "merchant_category": "Jewelry",
+            "transaction_amount": 71336,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-30T08:26:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN214",
+            "user_id": 8248,
+            "card_number": "****7788",
+            "card_type": "Amex",
+            "merchant_category": "Groceries",
+            "transaction_amount": 129733,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-08T11:40:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN215",
+            "user_id": 3149,
+            "card_number": "****1122",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 141650,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-14T08:49:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN216",
+            "user_id": 3772,
+            "card_number": "****7890",
+            "card_type": "Visa",
+            "merchant_category": "Food",
+            "transaction_amount": 127448,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-23T04:20:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN217",
+            "user_id": 2705,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 90574,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-10T00:32:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN218",
+            "user_id": 7162,
+            "card_number": "****4433",
+            "card_type": "Amex",
+            "merchant_category": "Gaming",
+            "transaction_amount": 184375,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 6,
+            "location": {
+                "city": "New Delhi",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-02T22:20:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN219",
+            "user_id": 8460,
+            "card_number": "****6677",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 193336,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-08T20:24:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN220",
+            "user_id": 1686,
+            "card_number": "****9988",
+            "card_type": "Mastercard",
+            "merchant_category": "Food",
+            "transaction_amount": 21098,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-02T07:30:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN221",
+            "user_id": 9619,
+            "card_number": "****4433",
+            "card_type": "Rupay",
+            "merchant_category": "Luxury",
+            "transaction_amount": 142851,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 1,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-05T20:28:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN222",
+            "user_id": 8801,
+            "card_number": "****6677",
+            "card_type": "Mastercard",
+            "merchant_category": "Clothing",
+            "transaction_amount": 184035,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-09T02:46:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN223",
+            "user_id": 1089,
+            "card_number": "****9988",
+            "card_type": "Visa",
+            "merchant_category": "Groceries",
+            "transaction_amount": 62613,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-18T00:54:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN224",
+            "user_id": 1023,
+            "card_number": "****8899",
+            "card_type": "Rupay",
+            "merchant_category": "Travel",
+            "transaction_amount": 112886,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-20T21:48:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN225",
+            "user_id": 1841,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Food",
+            "transaction_amount": 38783,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 2,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-17T14:21:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN226",
+            "user_id": 3833,
+            "card_number": "****3456",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 84499,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-31T04:45:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN227",
+            "user_id": 5514,
+            "card_number": "****3456",
+            "card_type": "Amex",
+            "merchant_category": "Groceries",
+            "transaction_amount": 56961,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-09T16:02:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN228",
+            "user_id": 5719,
+            "card_number": "****7890",
+            "card_type": "Visa",
+            "merchant_category": "Food",
+            "transaction_amount": 96578,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-12T15:13:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN229",
+            "user_id": 9589,
+            "card_number": "****5566",
+            "card_type": "Rupay",
+            "merchant_category": "Electronics",
+            "transaction_amount": 156826,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-10T22:45:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN230",
+            "user_id": 7840,
+            "card_number": "****3344",
+            "card_type": "Amex",
+            "merchant_category": "Clothing",
+            "transaction_amount": 91831,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-30T15:21:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN231",
+            "user_id": 8219,
+            "card_number": "****7890",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 192189,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-11T20:45:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN232",
+            "user_id": 3138,
+            "card_number": "****8899",
+            "card_type": "Rupay",
+            "merchant_category": "Electronics",
+            "transaction_amount": 14943,
+            "transaction_mode": "Online",
+            "cvv_attempts": 0,
+            "declined_transactions": 2,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-06T18:44:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN233",
+            "user_id": 3728,
+            "card_number": "****9988",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 164212,
+            "transaction_mode": "POS",
+            "cvv_attempts": 1,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-26T00:18:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN234",
+            "user_id": 9804,
+            "card_number": "****4433",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 157789,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-14T19:01:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN235",
+            "user_id": 8022,
+            "card_number": "****1122",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 160368,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 5,
+            "location": {
+                "city": "New York",
+                "country": "USA"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-13T05:13:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN236",
+            "user_id": 9535,
+            "card_number": "****3456",
+            "card_type": "Mastercard",
+            "merchant_category": "Luxury",
+            "transaction_amount": 184551,
+            "transaction_mode": "Online",
+            "cvv_attempts": 2,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Bangalore",
+                "country": "India"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-14T23:02:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN237",
+            "user_id": 4685,
+            "card_number": "****3344",
+            "card_type": "Visa",
+            "merchant_category": "Luxury",
+            "transaction_amount": 158220,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Singapore",
+                "country": "Singapore"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-23T23:06:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN238",
+            "user_id": 8049,
+            "card_number": "****3456",
+            "card_type": "Rupay",
+            "merchant_category": "Electronics",
+            "transaction_amount": 73668,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 2,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-04T11:48:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN239",
+            "user_id": 9585,
+            "card_number": "****9988",
+            "card_type": "Mastercard",
+            "merchant_category": "Gaming",
+            "transaction_amount": 4983,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 6,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-11T01:01:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN240",
+            "user_id": 4962,
+            "card_number": "****7890",
+            "card_type": "Amex",
+            "merchant_category": "Luxury",
+            "transaction_amount": 25763,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-12T06:00:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN241",
+            "user_id": 9919,
+            "card_number": "****9988",
+            "card_type": "Amex",
+            "merchant_category": "Gaming",
+            "transaction_amount": 4902,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Chennai",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-25T14:03:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN242",
+            "user_id": 4276,
+            "card_number": "****1122",
+            "card_type": "Visa",
+            "merchant_category": "Electronics",
+            "transaction_amount": 82950,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 4,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Smartphone",
+            "timestamp": "2025-01-30T14:32:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN243",
+            "user_id": 2029,
+            "card_number": "****7788",
+            "card_type": "Rupay",
+            "merchant_category": "Gaming",
+            "transaction_amount": 62825,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 0,
+            "declined_transactions": 5,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-12T08:45:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN244",
+            "user_id": 2070,
+            "card_number": "****9988",
+            "card_type": "Visa",
+            "merchant_category": "Gaming",
+            "transaction_amount": 39125,
+            "transaction_mode": "POS",
+            "cvv_attempts": 0,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Dubai",
+                "country": "UAE"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-23T11:50:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN245",
+            "user_id": 4227,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Travel",
+            "transaction_amount": 177211,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 2,
+            "declined_transactions": 3,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Tablet",
+            "timestamp": "2025-01-05T19:17:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN246",
+            "user_id": 3973,
+            "card_number": "****8899",
+            "card_type": "Visa",
+            "merchant_category": "Clothing",
+            "transaction_amount": 46631,
+            "transaction_mode": "POS",
+            "cvv_attempts": 2,
+            "declined_transactions": 2,
+            "location": {
+                "city": "London",
+                "country": "UK"
+            },
+            "device_type": "Smartwatch",
+            "timestamp": "2025-01-02T00:07:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN247",
+            "user_id": 1613,
+            "card_number": "****5566",
+            "card_type": "Mastercard",
+            "merchant_category": "Groceries",
+            "transaction_amount": 161356,
+            "transaction_mode": "Online",
+            "cvv_attempts": 3,
+            "declined_transactions": 6,
+            "location": {
+                "city": "Paris",
+                "country": "France"
+            },
+            "device_type": "Desktop",
+            "timestamp": "2025-01-29T06:53:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN248",
+            "user_id": 7063,
+            "card_number": "****9988",
+            "card_type": "Amex",
+            "merchant_category": "Travel",
+            "transaction_amount": 66203,
+            "transaction_mode": "POS",
+            "cvv_attempts": 3,
+            "declined_transactions": 5,
+            "location": {
+                "city": "Mumbai",
+                "country": "India"
+            },
+            "device_type": "Mobile",
+            "timestamp": "2025-01-09T04:45:00",
+            "fraud_flag": true
+        },
+        {
+            "transaction_id": "TXN249",
+            "user_id": 8963,
+            "card_number": "****8899",
+            "card_type": "Mastercard",
+            "merchant_category": "Electronics",
+            "transaction_amount": 1294,
+            "transaction_mode": "Online",
+            "cvv_attempts": 1,
+            "declined_transactions": 1,
+            "location": {
+                "city": "Hyderabad",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-13T01:12:00",
+            "fraud_flag": false
+        },
+        {
+            "transaction_id": "TXN250",
+            "user_id": 1186,
+            "card_number": "****6677",
+            "card_type": "Rupay",
+            "merchant_category": "Clothing",
+            "transaction_amount": 73526,
+            "transaction_mode": "UPI",
+            "cvv_attempts": 3,
+            "declined_transactions": 0,
+            "location": {
+                "city": "Kolkata",
+                "country": "India"
+            },
+            "device_type": "Laptop",
+            "timestamp": "2025-01-30T07:50:00",
+            "fraud_flag": false
+        }
+    ]
+}
