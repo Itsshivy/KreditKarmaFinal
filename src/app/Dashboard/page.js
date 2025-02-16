@@ -29,7 +29,7 @@ export default function DashboardPage() {
           {
             title: "Bill Optimisation",
             description: "Cut costs and streamline payments with smart bill optimization.",
-            link: "/Dashboard/BillOptimisation",
+            link: "/Dashboard/Billoptimisation",
             image: "https://plus.unsplash.com/premium_photo-1675055730240-96a4ed84e482?q=80&w=2160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           },
           {
@@ -41,7 +41,7 @@ export default function DashboardPage() {
           {
             title: "Credit Card Playbook",
             description: "Maximize rewards, avoid fees, and build credit with expert strategies.",
-            link: "/Dashboard/DebtManagement",
+            link: "/Dashboard/Playbook",
             image: "https://plus.unsplash.com/premium_photo-1681819806412-418bb52f8cc8?q=80&w=2898&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           },
           {

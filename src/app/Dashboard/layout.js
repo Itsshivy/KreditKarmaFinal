@@ -32,20 +32,20 @@ export default function DashboardLayout({ children }) {
           </li>
           <li className="p-4 bg-[#B2DFDB] hover:bg-[#80CBC4] rounded-lg flex items-center gap-3">
             <FaMoneyBillAlt size={24} className="text-[#00796B]" />
-            <Link href="/dashboard/reminders">Bill Optimisation</Link>
+            <Link href="/Dashboard/Billoptimisation">Bill Optimisation</Link>
           </li>
           <li className="p-4 bg-[#B2DFDB] hover:bg-[#80CBC4] rounded-lg flex items-center gap-3">
             <FaCreditCard size={24} className="text-[#00796B]" />
-            <Link href="/dashboard/health">CreditKey</Link>
+            <Link href="/Dashboard/CreditCard">CreditKey</Link>
           </li>
           {/* New Sections */}
           <li className="p-4 bg-[#B2DFDB] hover:bg-[#80CBC4] rounded-lg flex items-center gap-3">
             <FaBook size={24} className="text-[#00796B]" />
-            <Link href="/dashboard/playbook">Credit Card Playbook</Link>
+            <Link href="/Dashboard/Playbook">Credit Card Playbook</Link>
           </li>
           <li className="p-4 bg-[#B2DFDB] hover:bg-[#80CBC4] rounded-lg flex items-center gap-3">
             <FaShieldAlt size={24} className="text-[#00796B]" />
-            <Link href="/dashboard/fraud">Fraud Protection</Link>
+            <Link href="/Dashboard/Fraud">Fraud Protection</Link>
           </li>
         </ul>
       </div>
